@@ -9,11 +9,13 @@ import Counter from './components/Counter';
 import FunctionalClick from './components/FunctionalClick';
 import ClassCompoClick from './components/ClassCompoClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <EventBind></EventBind>
+      <ParentComponent />
+      {/* <EventBind></EventBind> */}
       {/* <FunctionalClick/> */}
       {/* <ClassCompoClick/> */}
       {/* <Counter /> */}
