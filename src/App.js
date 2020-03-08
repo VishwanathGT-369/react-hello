@@ -8,12 +8,14 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionalClick from './components/FunctionalClick';
 import ClassCompoClick from './components/ClassCompoClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <FunctionalClick/>
-      <ClassCompoClick/>
+      <EventBind></EventBind>
+      {/* <FunctionalClick/> */}
+      {/* <ClassCompoClick/> */}
       {/* <Counter /> */}
       {/* <Message name="Vishwa"></Message> */}
       {/* <Greet name = "Vishwa" sirName = "Tontanal"/> */}
