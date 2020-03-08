@@ -6,11 +6,15 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionalClick from './components/FunctionalClick';
+import ClassCompoClick from './components/ClassCompoClick';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <FunctionalClick/>
+      <ClassCompoClick/>
+      {/* <Counter /> */}
       {/* <Message name="Vishwa"></Message> */}
       {/* <Greet name = "Vishwa" sirName = "Tontanal"/> */}
       {/* <Greet name = "Ravi" sirName="Tontanal"/> */}
