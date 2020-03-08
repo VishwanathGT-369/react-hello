@@ -4,5 +4,5 @@ import React from 'react';
 //    return <h1>Hello Vishwa</h1>
 //}
 
-const Greet = () => <h1>Hello Vishwa</h1>
+const Greet = (props) => <h1>Hello {props.name} {props.sirName} </h1>
 export default Greet;
